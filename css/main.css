@@ -22,9 +22,12 @@
 
 /* Large sections */
 
+#smaller-height {
+  height: 200px;
+}
+
 .jumbotron {
   text-align: center;
-  height: 200px;
   background-color: #ffffff;
 }
 
@@ -40,10 +43,6 @@
 
 
 /* About me section */
-
-.about {
-  height: 500px;
-}
 
 img.resize {
   width: 400px;
@@ -70,10 +69,6 @@ hr {
   margin-right: auto;
   border-style: inset;
   border-width: 1px;
-}
-
-.bottom {
-  padding: 15px 10px;
 }
 
 .fa.fa-circle.fa-stack-2x {
