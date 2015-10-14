@@ -67,8 +67,8 @@ hr {
   margin-bottom: 0.5em;
   margin-left: auto;
   margin-right: auto;
-  border-style: inset;
   border-width: 1px;
+  border-style: inset;
 }
 
 .small{
@@ -81,4 +81,8 @@ hr {
 
 .fa.fa-circle.fa-stack-2x {
   color: #292828;
+}
+
+.fa-stack.fa-2x:hover .fa-circle{
+  color: #787777;
 }
