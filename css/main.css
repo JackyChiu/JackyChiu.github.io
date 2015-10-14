@@ -71,6 +71,14 @@ hr {
   border-width: 1px;
 }
 
+.small{
+  max-width: 200px;
+  margin: 15px auto;
+  border-width: 1px;
+  border-color: #dbdbdb;
+  border-style: solid;
+}
+
 .fa.fa-circle.fa-stack-2x {
   color: #292828;
 }
