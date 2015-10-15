@@ -1,0 +1,76 @@
+/* Navagation bar */
+
+.nav {
+  padding-top: 10px;
+}
+
+.nav a {
+  color: #292828;
+  font-size: 15px;
+  padding: 15px 10px;
+  font-weight: bold;
+}
+
+#extra-large {
+  font-size: 17px;
+}
+
+.nav li {
+  display: inline;
+}
+
+
+/* Large sections */
+
+.jumbotron {
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.jumbotron .container {
+  position: relative;
+  top: 15px;
+}
+
+.jumbotron h1 {
+  font-size: 75px;
+  color: #292828;
+}
+
+
+/*content*/
+
+.content-font {
+  margin-bottom: 2px;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+
+/* Footer */
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 1px;
+  border-style: inset;
+}
+
+.small {
+  max-width: 200px;
+  margin: 15px auto;
+  border-width: 1px;
+  border-color: #dbdbdb;
+  border-style: solid;
+}
+
+.fa.fa-circle.fa-stack-2x {
+  color: #292828;
+}
+
+.fa-stack.fa-2x:hover .fa-circle {
+  color: #787777;
+}
