@@ -14,19 +14,23 @@
 
 <body>
 
-  <!--Navagation bar-->
-  <div class="nav">
+  <!-- Navagation bar -->
+  <div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-      <ul class="pull-left">
-        <li> <a id="extra-large" href="index.html">Jacky Chiu</a></li>
-      </ul>
-      <ul class="pull-right">
-        <li> <a href="index.html">HOME</a></li>
-        <li> <a href="resume.html">RESUME</a></li>
-        <li> <a href="projects.html">PROJECTS</a></li>
-        <li> <a href="https://github.com/JackyChiu">GITHUB</a></li>
-        <li> <a href="contact.html">CONTACT</a></li>
-      </ul>
+      <a href="index.html" class="navbar-brand" id="color">Jacky Chiu</a> <!-- Class navbar-brand wasnt changing color-->
+      <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li> <a href="index.html">Home</a></li>
+          <li> <a href="resume.html">Resume</a></li>
+          <li> <a href="projects.html">Projects</a></li>
+          <li> <a href="https://github.com/JackyChiu">Github</a></li>
+        </ul>
+      </div>
     </div>
   </div>
 
