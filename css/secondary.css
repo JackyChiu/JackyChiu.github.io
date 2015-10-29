@@ -45,7 +45,6 @@
   color: #292828;
 }
 
-
 /*content*/
 
 .content-font {
@@ -53,7 +52,6 @@
   font-size: 18px;
   font-weight: 200;
 }
-
 
 /* Footer */
 
@@ -67,14 +65,6 @@ hr {
   border-style: inset;
 }
 
-.small {
-  max-width: 200px;
-  margin: 15px auto;
-  border-width: 1px;
-  border-color: #dbdbdb;
-  border-style: solid;
-}
-
 .fa.fa-circle.fa-stack-2x {
   color: #292828;
 }
@@ -82,9 +72,18 @@ hr {
 .fa-stack.fa-2x:hover .fa-circle {
   color: #787777;
 }
-
-@media (max-width: 767px){
+/* Media */
+@media (max-width:767px){
   .navbar-default .navbar-nav > li > a {
     color: #000000;
+  }
+  .jumbotron h1 {
+    font-size: 35px;
+  }
+  .jumbotron h2 {
+    font-size: 25px;
+  }
+  .jumbotron p {
+    font-size: 15px;
   }
 }

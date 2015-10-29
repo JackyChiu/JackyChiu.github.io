@@ -1,23 +1,23 @@
 /* Navagation bar */
 
-.navbar-default{
+.navbar-default {
   background-color: #ffffff;
 }
 
-#color{
+#color {
   color: #292828;
 }
 
-.navbar a{
+.navbar a {
   font-size: 18px;
-  padding-left:10px;
+  padding-left: 10px;
   font-weight: normal;
 }
 
 .navbar-default .navbar-nav > li > a {
   font-size: 15px;
   color: #292828;
-  padding-left:25px;
+  padding-left: 25px;
 }
 
 .navbar-default .navbar-toggle {
@@ -28,11 +28,15 @@
   background-color: #292828;
 }
 
+
 /* Large sections */
 
 #smaller-height {
   height: 200px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
+
 
 .jumbotron {
   text-align: center;
@@ -94,9 +98,32 @@ hr {
 .fa-stack.fa-2x:hover .fa-circle {
   color: #787777;
 }
-
-@media (max-width: 767px){
+/* Mobile */
+@media (max-width: 767px) {
   .navbar-default .navbar-nav > li > a {
     color: #000000;
+  }
+  .jumbotron h1 {
+    font-size: 35px;
+  }
+  .jumbotron p {
+    font-size: 15px;
+  }
+  #smaller-height{
+    height:2%;
+  }
+  .about .jumbotron{
+    padding-top:0px;
+    margin-top: 0px;
+  }
+  img.resize {
+    width:300px;
+    height: auto;
+  }
+  .jumbotron h2 {
+    font-size: 25px;
+  }
+  #extra-padding{
+    padding-top: 20px;
   }
 }
