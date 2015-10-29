@@ -37,7 +37,6 @@
   margin-bottom: 0px;
 }
 
-
 .jumbotron {
   text-align: center;
   background-color: #ffffff;
@@ -98,7 +97,10 @@ hr {
 .fa-stack.fa-2x:hover .fa-circle {
   color: #787777;
 }
+
+
 /* Mobile */
+
 @media (max-width: 767px) {
   .navbar-default .navbar-nav > li > a {
     color: #000000;
@@ -109,21 +111,21 @@ hr {
   .jumbotron p {
     font-size: 15px;
   }
-  #smaller-height{
-    height:2%;
+  #smaller-height {
+    height: 2%;
   }
-  .about .jumbotron{
-    padding-top:0px;
+  .about .jumbotron {
+    padding-top: 0px;
     margin-top: 0px;
   }
   img.resize {
-    width:300px;
+    width: 300px;
     height: auto;
   }
   .jumbotron h2 {
     font-size: 25px;
   }
-  #extra-padding{
+  #extra-padding {
     padding-top: 20px;
   }
 }

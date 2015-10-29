@@ -1,23 +1,23 @@
 /* Navagation bar */
 
-.navbar-default{
+.navbar-default {
   background-color: #ffffff;
 }
 
-#color{
+#color {
   color: #292828;
 }
 
-.navbar a{
+.navbar a {
   font-size: 18px;
-  padding-left:10px;
+  padding-left: 10px;
   font-weight: normal;
 }
 
 .navbar-default .navbar-nav > li > a {
   font-size: 15px;
   color: #292828;
-  padding-left:25px;
+  padding-left: 25px;
 }
 
 .navbar-default .navbar-toggle {
@@ -27,6 +27,7 @@
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #292828;
 }
+
 
 /* Large sections */
 
@@ -45,6 +46,7 @@
   color: #292828;
 }
 
+
 /*content*/
 
 .content-font {
@@ -52,6 +54,7 @@
   font-size: 18px;
   font-weight: 200;
 }
+
 
 /* Footer */
 
@@ -72,8 +75,11 @@ hr {
 .fa-stack.fa-2x:hover .fa-circle {
   color: #787777;
 }
+
+
 /* Media */
-@media (max-width:767px){
+
+@media (max-width:767px) {
   .navbar-default .navbar-nav > li > a {
     color: #000000;
   }
