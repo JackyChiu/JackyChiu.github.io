@@ -71,11 +71,20 @@
 
 .accordion a:hover{
   color: black;
+  text-decoration: none;
 }
 
 .accordion-section-content {
     padding:0px;
     display:none;
+}
+
+.info{
+  margin: 0px;
+}
+
+.fa-2x:hover{
+  color: #787777;
 }
 
 /* Footer */
