@@ -9,6 +9,8 @@ $(document).ready(function() {
   $('.accordion-section-title').click(function(e) {
     // Grab current anchor value
     var currentAttrValue = $(this).attr('href');
+    //Change the icon
+    $(this).find('i').toggleClass('fa-angle-down fa-angle-up')
     // Open and close here
 
     if($(this).is('.active')) {
