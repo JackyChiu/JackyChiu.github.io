@@ -6,6 +6,9 @@ Click the link below to view the website:
 http://jackychiu.github.io
 
 ----
+(Update Nov 4, 2015)
+Added project section of website.
+
 (Update Oct 28, 2015)
 Website now has a responsive navagation bar and scales on mobile.
 
