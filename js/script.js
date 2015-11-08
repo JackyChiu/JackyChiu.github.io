@@ -10,7 +10,7 @@ $(document).ready(function() {
     // Grab current anchor value
     var currentAttrValue = $(this).attr('href');
     //Change the icon
-    $(this).find('i').toggleClass('fa-angle-down fa-angle-up')
+    $(this).find('i').toggleClass('fa-angle-right fa-angle-down')
     // Open and close here
 
     if($(this).is('.active')) {

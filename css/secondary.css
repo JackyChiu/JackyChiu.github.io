@@ -103,12 +103,16 @@
 .more {
   border: solid 1px;
   border-radius: 5px;
-  padding: 2px 4px 2px 4px;
+  padding: 2px 4px 4px 4px;
   display: inline;
 }
 
 .more:hover {
   color: #787777;
+}
+
+b{
+  font-weight: normal;
 }
 
 
