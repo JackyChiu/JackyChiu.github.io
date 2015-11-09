@@ -73,6 +73,10 @@ img.resize {
   padding-top: 45px;
 }
 
+.about p{
+  text-align: justify;
+}
+
 
 /* Footer */
 
