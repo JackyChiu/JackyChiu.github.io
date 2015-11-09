@@ -63,6 +63,7 @@
 .resize {
   width: 100%;
   height: auto;
+  max-height: 350px;
 }
 
 .picture-link {
@@ -80,8 +81,13 @@
 }
 
 .accordion-section-content {
+  text-align: left;
   padding: 0px;
   display: none;
+}
+
+.accordion{
+  padding-bottom: 25px;
 }
 
 .info {
@@ -151,6 +157,9 @@ hr {
   }
   p, .jumbotron p, .inline-block i, .inline-block p {
     font-size: 20px;
+  }
+  #copyright{
+    font-size: 14px;
   }
   .picture-link {
     padding-bottom: 0px;

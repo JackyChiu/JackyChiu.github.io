@@ -132,4 +132,7 @@ hr {
   #extra-padding {
     padding-top: 20px;
   }
+  #copyright{
+    font-size: 14px;
+  }
 }
