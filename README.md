@@ -7,7 +7,7 @@ http://jackychiu.github.io
 
 ----
 (Update Nov 4, 2015)
-Added project section of website.
+Added project section of website. With accordins, powered by javascript.
 
 (Update Oct 28, 2015)
 Website now has a responsive navagation bar and scales on mobile.
