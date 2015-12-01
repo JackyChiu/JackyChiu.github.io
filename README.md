@@ -6,6 +6,9 @@ Click the link below to view the website:
 http://jackychiu.github.io
 
 ----
+(Update Dec 1, 2015)
+Added resume section of website.
+
 (Update Nov 4, 2015)
 Added project section of website. With accordins, powered by javascript.
 
@@ -20,4 +23,3 @@ The website is designed to be view on a computer, but can be viewed on mobile.
 I used Bootstrap's css framework for my website as well and FontAwesome's icons for my footers.
 
 I created most of my website throughout a long weekend and will continue to update it as I learn more about web development. I hope to add some animations to my website soon.
-
