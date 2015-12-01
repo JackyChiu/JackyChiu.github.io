@@ -178,4 +178,7 @@ hr {
   .picture-link {
     padding-bottom: 0px;
   }
+  .resume .container {
+    width: 100%;
+  }
 }
