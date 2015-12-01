@@ -38,6 +38,7 @@
 .jumbotron {
   text-align: center;
   background-color: #ffffff;
+  margin-bottom: 0px;
 }
 
 .jumbotron .container {
@@ -86,7 +87,7 @@
   display: none;
 }
 
-.accordion{
+.accordion {
   padding-bottom: 25px;
 }
 
@@ -117,8 +118,17 @@
   color: #787777;
 }
 
-b{
+b {
   font-weight: normal;
+}
+
+
+/* Resume */
+
+.resume .container {
+  width: 55%;
+  font-size: 18px;
+  font-weight: 200;
 }
 
 
@@ -142,9 +152,10 @@ hr {
   color: #787777;
 }
 
-#copyright{
+#copyright {
   text-align: center;
 }
+
 
 /* Media */
 
@@ -161,7 +172,7 @@ hr {
   p, .jumbotron p, .inline-block i, .inline-block p {
     font-size: 20px;
   }
-  #copyright{
+  #copyright {
     font-size: 14px;
   }
   .picture-link {
