@@ -7,7 +7,7 @@ http://jackychiu.github.io
 
 ----
 (Update Dec 1, 2015)
-Added resume section of website.
+Added resume section of website and updated project section.
 
 (Update Nov 4, 2015)
 Added project section of website. With accordins, powered by javascript.
