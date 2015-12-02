@@ -107,6 +107,10 @@
   font-size: 23px;
 }
 
+.resume .inline-block i{
+  font-size: inherit;
+}
+
 .more {
   border: solid 1px;
   border-radius: 5px;
@@ -122,6 +126,13 @@ b {
   font-weight: normal;
 }
 
+#Github_Button{
+  color: #292828;
+  text-decoration: none;
+  border: solid 1px;
+  border-radius: 5px;
+  padding: 2px 4px 2px 4px;
+}
 
 /* Resume */
 
