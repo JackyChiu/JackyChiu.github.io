@@ -6,6 +6,9 @@ Click the link below to view the website:
 http://jackychiu.github.io
 
 ----
+(Update Dec 3, 2015)
+Added website icon for fun.
+
 (Update Dec 1, 2015)
 Added resume section of website and updated project section.
 
