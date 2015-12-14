@@ -34,15 +34,21 @@
 
 
 /* Large sections */
-
-#smaller-height {
-  height: 200px;
+#greeting_background {
+  background-image: url("../img/closed_mac.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  padding-top: 60px;
   padding-bottom: 0px;
   margin-bottom: 0px;
+  min-height: 400px;
 }
 
 .jumbotron {
   text-align: center;
+  padding-top: 0px;
   background-color: #ffffff;
 }
 
@@ -53,7 +59,7 @@
 
 .jumbotron h1 {
   font-size: 75px;
-  color: #292828;
+  color: #ffffff;
 }
 
 
@@ -117,7 +123,7 @@ hr {
     color: #000000;
   }
   .jumbotron h1 {
-    font-size: 45px;
+    font-size: 55px;
   }
   .jumbotron p, p {
     font-size: 20px;

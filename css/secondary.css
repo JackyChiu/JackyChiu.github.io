@@ -48,7 +48,16 @@
 
 .jumbotron h1 {
   font-size: 75px;
-  color: #292828;
+}
+
+#project_background {
+  background-image: url("../img/projects.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  margin-bottom: 25px;
+  min-height: 400px;
 }
 
 
@@ -107,7 +116,7 @@
   font-size: 23px;
 }
 
-.resume .inline-block i{
+.resume .inline-block i {
   font-size: inherit;
 }
 
@@ -126,13 +135,14 @@ b {
   font-weight: normal;
 }
 
-#Github_Button{
-  color: #292828;
+#Github_Button {
+  color: #ffffff;
   text-decoration: none;
   border: solid 1px;
   border-radius: 5px;
   padding: 2px 4px 2px 4px;
 }
+
 
 /* Resume */
 
@@ -176,6 +186,9 @@ hr {
   }
   .jumbotron h1 {
     font-size: 35px;
+  }
+  #project_background h1{
+    font-size: 55px;
   }
   h2 {
     font-size: 20px;
