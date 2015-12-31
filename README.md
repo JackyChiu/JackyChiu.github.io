@@ -6,6 +6,9 @@ Click the link below to view the website:
 http://jackychiu.github.io
 
 ----
+(Update Dec 31, 2015)
+Added a transparent navbar as you scroll down the page. Added a quick link bar for my projects underneath the banner in the projects section.
+
 (Update Dec 13, 2015)
 Added an background picture for my home and projects page. I took and edited the photos myself.
 

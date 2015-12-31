@@ -56,8 +56,35 @@
   background-size: cover;
   background-position: center;
   color: #ffffff;
-  margin-bottom: 25px;
   min-height: 400px;
+}
+
+
+/*Table*/
+
+.container-fluid {
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+table {
+  width: 100%;
+  background-color: #131313;
+}
+
+td{
+  width: 16.67%;
+}
+
+td p {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+td a {
+  color: white;
 }
 
 
@@ -188,8 +215,11 @@ hr {
   .jumbotron h1 {
     font-size: 35px;
   }
-  #project_background h1{
+  #project_background h1 {
     font-size: 55px;
+  }
+  table, tr{
+    display: none;
   }
   h2 {
     font-size: 20px;
