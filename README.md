@@ -6,6 +6,9 @@ Click the link below to view the website:
 http://jackychiu.github.io
 
 ----
+(Update Dec 13, 2015)
+Added an background picture for my home and projects page. I took and edited the photos myself.
+
 (Update Dec 3, 2015)
 Added website icon for fun.
 
