@@ -84,7 +84,13 @@ td p {
 }
 
 td a {
+  font-weight: 200;
   color: white;
+}
+
+td a:hover{
+  color: #787777;
+  text-decoration: none;
 }
 
 
