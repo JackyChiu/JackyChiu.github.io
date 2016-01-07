@@ -53,7 +53,7 @@ $(document).ready(function() {
       clickedOpen = false;
       close_accordion_section();
     } else {
-      if ((!$(this).is('.active') && !hover)) {
+      if (((!$(this).is('.active') && !hover)) || (!$(this).is('.active') && !clickedOpen)){
         $(this).find('i').toggleClass('fa-angle-right fa-angle-down');
         clickedOpen = true;
         close_accordion_section();
@@ -66,5 +66,9 @@ $(document).ready(function() {
     }
     e.preventDefault();
   });
-
+/*
+  if($(this).is('.active')){
+    $('.accordion .accordion-section .more').find('i').toggleClass('fa-angle-right fa-angle-down');
+  }
+*/
 });
