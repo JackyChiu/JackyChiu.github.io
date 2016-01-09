@@ -16,9 +16,6 @@ $(window).scroll(function() {
   lastScrollTop = st;
 });
 
-var hover = false;
-var clickedOpen = false;
-
 $(document).ready(function() {
 
   function close_accordion_section() {
@@ -27,48 +24,18 @@ $(document).ready(function() {
     $('.accordion .accordion-section-content').slideUp(300).removeClass('open');
   }
 
-  $('.accordion-section-title').hover(function() {
-    hover = true;
-    //alert("true");
-    var currentAttrValue = $(this).attr('href');
-
-    if (!$(this).is('.active')) {
-      $(this).find('i').toggleClass('fa-angle-right fa-angle-down');
-      $(this).addClass('active');
-      $('.accordion ' + currentAttrValue).slideDown(300).addClass('open');
-    }
-  }, function() {
-    hover = false;
-    if ($(this).is('.active') && !clickedOpen) {
-      $(this).find('i').toggleClass('fa-angle-right fa-angle-down');
-      close_accordion_section()
-    }
-  });
-
   $('.accordion-section-title').click(function(e) {
     var currentAttrValue = $(this).attr('href');
 
-    if (($(this).is('.active') && !hover) || clickedOpen) {
+    if ($(this).is('.active')) {
       $(this).find('i').toggleClass('fa-angle-right fa-angle-down');
-      clickedOpen = false;
       close_accordion_section();
     } else {
-      if (((!$(this).is('.active') && !hover)) || (!$(this).is('.active') && !clickedOpen)){
         $(this).find('i').toggleClass('fa-angle-right fa-angle-down');
-        clickedOpen = true;
         close_accordion_section();
         $(this).addClass('active');
         $('.accordion ' + currentAttrValue).slideDown(300).addClass('open');
       }
-      else{
-        clickedOpen = true;
-      }
-    }
     e.preventDefault();
-  });
-/*
-  if($(this).is('.active')){
-    $('.accordion .accordion-section .more').find('i').toggleClass('fa-angle-right fa-angle-down');
-  }
-*/
+    });
 });
