@@ -113,6 +113,7 @@ hr {
 }
 
 #copyright{
+  font-size: 14px;
   text-align: center;
 }
 
@@ -144,8 +145,5 @@ hr {
   }
   #extra-padding {
     padding-top: 20px;
-  }
-  #copyright{
-    font-size: 14px;
   }
 }
