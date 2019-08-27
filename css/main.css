@@ -68,6 +68,7 @@
 img.resize {
   width: 80%;
   height: auto;
+  max-width: 250px;
 }
 
 .jumbotron h2 {
@@ -137,7 +138,7 @@ hr {
     margin-top: 0px;
   }
   img.resize {
-    width: 350px;
+    width:  50%;
     height: auto;
   }
   .jumbotron h2 {
